@@ -1,0 +1,8 @@
+{% block content %}
+<h2>Add Company</h2>
+</br></br>
+<form action= '/add-company/' method="post" >
+{% csrf_token %}
+{{form}}
+</form>
+{% endblock %}
